@@ -3,7 +3,7 @@ import { FaXTwitter, FaGithub, FaLinkedin, FaDiscord } from "react-icons/fa6";
 
 function SocialLink({ href, icon: Icon }) {
   return (
-    <a href={href} target="_blank" rel="noopener noreferrer">
+    <a className="hover:text-gray-500" href={href} target="_blank" rel="noopener noreferrer">
       <Icon />
     </a>
   );
@@ -25,7 +25,7 @@ export default function Contact() {
     <div className="justify-items-center pb-content sm:mt-18">
       <main className="grid w-full sm:grid-cols-2 sm:max-w-1/2">
         <div className="text-center sm:text-left">
-          <p className="text-sm mb-6">Follow me on my networks! :</p>
+          <p className="text-sm mb-6">Reach out to me on my networks! :</p>
         </div>
         <SocialLinks/>
       </main>

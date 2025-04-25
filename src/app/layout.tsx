@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist_Mono } from "next/font/google";
 import { Navbar } from "./components/navbar";
 import { Footer } from "./components/footer";
+import { metaData } from "./data";
 import "./globals.css";
 
 const geistMono = Geist_Mono({
@@ -10,8 +11,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Roy Nakakawa",
-  description: "I can help you with your crypto project!",
+  title: {
+    template: `%s | ${metaData.title}`,
+    default: metaData.title,
+  },
+  description: metaData.description,
+  metadataBase: new URL(metaData.baseUrl),
 };
 
 export default function RootLayout({

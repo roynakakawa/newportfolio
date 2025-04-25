@@ -2,9 +2,7 @@ export const metaData = {
     baseUrl: "https://nakakawa.me",
     title: "Roy Nakakawa",
     name: "Roy Nakakawa",
-    ogImage: "",
-    description:
-      "I can help you with your crypto project!",
+    description: "I can help you with your crypto project!",
   };
   
   export const socialLinks = {
