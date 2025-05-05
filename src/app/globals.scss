@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+:root {
+  --background: #000000;
+  --foreground: #e2e9e1;
+  --gif-background: url(https://64.media.tumblr.com/da60c13b478dda09ab90c27e880983b8/tumblr_nd4pwdPKdc1tun3l0o1_1280.gifv);
+}
+
+body {
+  height: 100%;
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, p, a {
+  font-family: var(--font-geist-mono);
+}
+
+.pb-container {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+
+.pb-container::before {
+  content: "";
+  position: absolute;
+  background-image: var(--gif-background);
+  top: 0px;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+  opacity: 0.4;
+  z-index: 0;
+}
+
+.pb-content {
+  position: relative;
+}
+
+@mixin glitchCopy {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.skewan{
+  animation: glitch-skew 0.5s infinite linear alternate-reverse;
+}
+
+.glitch {
+	color: var(--foreground);
+  position: relative;
+  animation: glitch-skew 0.8s infinite linear alternate-reverse;
+}
+
+.glitch::before{
+  @include glitchCopy;
+  left: 1px;
+  text-shadow: -2px 0 rgb(250, 101, 213);
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim 5s infinite linear alternate-reverse;
+}
+
+.glitch::after{
+  @include glitchCopy;
+  left: -1px;
+  text-shadow: -2px 0 rgb(21, 250, 250), 2px 2px rgb(250, 101, 213);
+  clip: rect(44px, 450px, 56px, 0);
+  animation: glitch-anim2 1s infinite linear alternate-reverse;
+}
+
+@keyframes glitch-anim {
+  $steps: 20;
+  @for $i from 0 to $steps {
+    #{percentage($i*(1/$steps))} {
+      clip: rect(random(100) + px, 9999px, random(100) + px, 0);
+      transform: skew((random(100) / 100) + deg);
+    }
+  }
+}
+
+@keyframes glitch-anim2 {
+  $steps: 20;
+  @for $i from 0 to $steps {
+    #{percentage($i*(1/$steps))} {
+      clip: rect(random(100) + px, 9999px, random(100) + px, 0);
+      transform: skew((random(100) / 100) + deg);
+    }
+  }
+}
+
+@keyframes glitch-skew {
+  $steps: 10;
+  @for $i from 0 to $steps {
+    #{percentage($i*(1/$steps))} {
+      transform: skew((random(10) - 5) + deg);
+    }
+  }
+}
