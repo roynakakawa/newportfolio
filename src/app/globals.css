@@ -38,3 +38,13 @@ h1, h2, h3, p, a {
 .pb-content {
   position: relative;
 }
+
+.vintage{
+  text-shadow: #16f734 -2px -1px 8px;
+}
+
+.retroglitch {
+  color: var(--foreground);
+}
+
+

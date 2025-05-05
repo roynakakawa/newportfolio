@@ -17,6 +17,12 @@ export const metadata: Metadata = {
   },
   description: metaData.description,
   metadataBase: new URL(metaData.baseUrl),
+  openGraph: {
+    title: metaData.title,
+    description: metaData.description,
+    url: metaData.baseUrl,
+    images: "/opengraph-image.png", 
+  },
 };
 
 export default function RootLayout({
