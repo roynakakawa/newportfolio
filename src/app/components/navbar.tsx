@@ -19,7 +19,7 @@ export function Navbar() {
                 <div className="text-md sm:space-x-16 space-x-8 skewan">
                     {Object.entries(navItems).map(([path, { name }]) => {
                         return (
-                            <Link key={path} href={path} className="hover:text-gray-500">
+                            <Link key={path} href={path} className="flick">
                                 {name}
                             </Link>
                         )
