@@ -1,21 +1,13 @@
 import { socialLinks } from "../data";
 import { FaXTwitter, FaGithub, FaLinkedin, FaDiscord } from "react-icons/fa6";
 
-function SocialLink({ href, icon: Icon }) {
-  return (
-    <a className="transition-all duration-300 hover:scale-120" href={href} target="_blank" rel="noopener noreferrer">
-      <Icon />
-    </a>
-  );
-}
-
 function SocialLinks() {
   return (
     <div className="flex text-xl gap-10 glitch">
-      <SocialLink href={socialLinks.twitter} icon={FaXTwitter} />
-      <SocialLink href={socialLinks.github} icon={FaGithub} />
-      <SocialLink href={socialLinks.linkedin} icon={FaLinkedin} />
-      <SocialLink href={socialLinks.discord} icon={FaDiscord} />
+      <a className="transition-all duration-300 hover:scale-120" href={socialLinks.twitter} target="_blank" rel="noopener noreferrer"><FaXTwitter /></a>
+      <a className="transition-all duration-300 hover:scale-120" href={socialLinks.github} target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+      <a className="transition-all duration-300 hover:scale-120" href={socialLinks.linkedin} target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+      <a className="transition-all duration-300 hover:scale-120" href={socialLinks.discord} target="_blank" rel="noopener noreferrer"><FaDiscord /></a>
     </div>
   );
 }
