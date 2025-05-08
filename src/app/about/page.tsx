@@ -1,10 +1,12 @@
 export default function About() {
     return (
       <div className="justify-items-center pb-content sm:mt-18">
-        <main className="grid sm:max-w-1/2 text-left px-2 sm:px-0">
-          <a className="text-sm skewan">I'm a mexican electric engineer living in Madrid, Spain.</a>
-          <a className="text-sm skewan">I usually spend my time reading and having fun automating boring things. I've been involved in the Crypto ecosystem for about 6 years.</a>
-          <a className="text-sm skewan">I really believe that Blockchain can change our current understanding of how money works and empower individuals over centralized authorities.</a>
+        <main className="grid sm:max-w-1/2 text-justify px-2 sm:px-0">
+          <a className="text-sm vhsm">I'm a mexican electric engineer living in Madrid, Spain.</a>
+          <a className="text-sm vhsm">
+            I usually spend my time reading and having fun automating boring things. I've been involved in the Crypto ecosystem for about 6 years.
+            I really believe that Blockchain can change our current understanding of how money works and empower individuals over centralized authorities.          
+          </a>
         </main>
       </div>
     );

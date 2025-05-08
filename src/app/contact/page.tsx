@@ -11,7 +11,7 @@ function SocialLink({ href, icon: Icon }) {
 
 function SocialLinks() {
   return (
-    <div className="flex text-xl gap-10 skewan">
+    <div className="flex text-xl gap-10 glitch">
       <SocialLink href={socialLinks.twitter} icon={FaXTwitter} />
       <SocialLink href={socialLinks.github} icon={FaGithub} />
       <SocialLink href={socialLinks.linkedin} icon={FaLinkedin} />
@@ -25,7 +25,7 @@ export default function Contact() {
     <div className="justify-items-center pb-content sm:mt-18">
       <main className="grid w-full sm:grid-cols-2 sm:max-w-1/2">
         <div className="text-center sm:text-left">
-          <p className="text-sm mb-16 skewan">Reach out to me on my networks! :</p>
+          <p className="text-sm mb-16 vhsm">Reach out to me on my networks! :</p>
         </div>
         <div className="sm:justify-items-start justify-items-center">
         <SocialLinks/>

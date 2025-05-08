@@ -1,31 +1,5 @@
 @use "sass:math";
 
-  .skewan{
-    animation: skew 1s infinite linear alternate;
-  }
-
-  @keyframes skew {
-    $steps: 80;
-    @for $i from 0 to $steps {
-      #{math.percentage($i*calc(1/$steps))} {
-        transform: skew((math.random(9) - 4) + deg);
-      }
-    }
-  }
-
-  .skewanimg{
-    animation: skew2 0.2s infinite linear alternate;
-  }
-
-  @keyframes skew2 {
-    $steps: 10;
-    @for $i from 0 to $steps {
-      #{math.percentage($i*calc(1/$steps))} {
-        transform: skew((math.random(2) - 1) + deg);
-      }
-    }
-  }
-
   .flick:hover{
     animation: textflicker 0.01s infinite alternate-reverse;
   }
@@ -34,11 +8,46 @@
     animation: textflicker 0.01s infinite alternate-reverse;
   }
   
+  .vhsm { 
+    animation: textflicker2 0.01s infinite alternate-reverse;
+  }
+
   @keyframes textflicker {
     from {
       text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
     }
     to {
       text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+    }
+  }
+
+  @keyframes textflicker2 {
+    from {
+      text-shadow: 1px 0 0 #8f8b8d, -1px 0 0 #75fa69;
+    }
+    to {
+      text-shadow: 1px 0.8px 1px #ea36af, -0.5px -0.8px 1px #c5cac5;
+    }
+  }
+
+  .glitch {
+    animation: flicker 1s infinite alternate-reverse, skew 1s infinite;
+  }
+  
+  @keyframes flicker {
+    0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+      opacity: 1;
+    }
+    20%, 24%, 55% {
+      opacity: 0.2;
+    }
+  }
+
+  @keyframes skew {
+    $steps: 50;
+    @for $i from 0 to $steps {
+      #{math.percentage($i*calc(1/$steps))} {
+        transform: skew((math.random(2) - 1) + deg);
+      }
     }
   }
