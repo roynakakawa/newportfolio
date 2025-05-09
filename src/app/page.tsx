@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 const date = new Date();
-const formatDate = date.toLocaleDateString('en-US', { weekday: 'long' });
+const formatDate = date.toLocaleDateString('en-GB', { weekday: 'long' });
 
 export default function Home() {
   return (
