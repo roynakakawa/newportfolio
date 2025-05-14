@@ -14,8 +14,8 @@ const navItems = {
 
 export function Navbar() {
     return (
-        <nav className="grid items-center h-22 sm:h-32 mb-14 pb-content justify-items-center">
-            <div className="w-full sm:max-w-1/2 justify-items-center sm:justify-items-start">
+        <nav className="absolute pt-12 w-full justify-items-center">
+            <div className="relative w-full sm:max-w-1/2 justify-items-center sm:justify-items-start z-1">
                 <div className="text-md sm:space-x-16 space-x-8 skewan">
                     {Object.entries(navItems).map(([path, { name }]) => {
                         return (

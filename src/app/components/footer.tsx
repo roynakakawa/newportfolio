@@ -1,7 +1,7 @@
 export function Footer() {
     return (
-        <div className="absolute bottom-12 sm:bottom-0 inset-x-0 h-12 justify-items-center">
-            <div className="flex  text-xs">
+        <div className="grid pb-content h-10 content-center justify-items-center bg-(--background)">
+            <div className="text-xs">
                 <a>© {new Date().getFullYear()} Crafted with ♥ by Roy</a>
             </div>
         </div>
