@@ -14,7 +14,7 @@ function SocialLinks() {
 
 export default function Contact() {
   return (
-    <div className="justify-items-center pb-content h-[calc(100vh-2.5rem)]">
+    <div className="justify-items-center pb-content h-[calc(100vh-6rem)] sm:h-[calc(100vh-2.5rem)]">
       <main className="grid w-full sm:grid-cols-2 sm:max-w-1/2 pt-42">
         <div className="text-center sm:text-left">
           <p className="text-sm mb-16 vhsm">Reach out to me on my networks! :</p>

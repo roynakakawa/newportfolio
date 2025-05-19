@@ -7,7 +7,7 @@ export default function About() {
             I usually spend my time reading and having fun automating boring things. I've been involved in the Crypto ecosystem for about 6 years.
             I really believe that Blockchain can change our current understanding of how money works and empower individuals over centralized authorities.          
           </a>
-          <h1 className="text-sm font-bold mt-12 mb-12 text-center sm:text-left vhs">
+          <h1 className="text-sm font-bold mt-18 sm:mt-12 mb-8 sm:mb-10 text-center sm:text-left vhs">
             teams where I have collaborated:
           </h1>
           <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 justify-items-center sm:justify-items-start">
@@ -18,7 +18,7 @@ export default function About() {
             <img className="glitch" src="./mlabs.png" height="50" width="50" alt=""/>
             <img className="glitch" src="./wanchain.png" height="40" width="40" alt=""/>
           </div>
-          <h1 className="text-sm font-bold mt-12 mb-12 vhs">
+          <h1 className="text-sm font-bold mt-18 sm:mt-12 mb-8 sm:mb-10 vhs">
             my skills
           </h1>
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-6 sm:gap-14">
@@ -56,12 +56,6 @@ export default function About() {
               <a className="vhsm">deFi</a>
               <div className="flex h-4 overflow-hidden rounded text-xs border-1 glitch">
                 <div className="bg-(--foreground2) w-7/10 text-(--background) glitch"></div>
-              </div>
-            </div>
-            <div className="grid grid-rows-2 text-xs">
-              <a className="vhsm">ecosystems</a>
-              <div className="flex h-4 overflow-hidden rounded text-xs border-1 glitch">
-                <div className="bg-(--foreground2) w-8/10 text-(--background) glitch"></div>
               </div>
             </div>
             <div className="grid grid-rows-2 text-xs">
