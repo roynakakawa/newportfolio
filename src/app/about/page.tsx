@@ -7,7 +7,7 @@ export default function About() {
             I usually spend my time reading and having fun automating boring things. I've been involved in the Crypto ecosystem for about 6 years.
             I really believe that Blockchain can change our current understanding of how money works and empower individuals over centralized authorities.          
           </a>
-          <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-8 sm:mb-4 text-center sm:text-left vhs">
+          <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-4 text-center sm:text-left vhs">
             teams where I have collaborated:
           </h1>
           <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 justify-items-center sm:justify-items-start">
@@ -18,8 +18,8 @@ export default function About() {
             <img className="glitch" src="./mlabs.png" height="50" width="50" alt=""/>
             <img className="glitch" src="./wanchain.png" height="40" width="40" alt=""/>
           </div>
-          <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-8 sm:mb-4 vhs">
-            my skills
+          <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-4 vhs">
+            my skills:
           </h1>
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-6 sm:gap-x-12 sm:gap-y-2 ">
             <div className="grid grid-rows-2 text-xs">
@@ -77,13 +77,13 @@ export default function About() {
               </div>
             </div>
           </div>
-          <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-8 sm:mb-4 vhs">
-            highlight projects
+          <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-4 vhs">
+            highlight projects:
           </h1>
           <div className="grid grid-cols-3 gap-6 justify-items-center sm:max-w-1/2 sm:justify-items-start">
-            <img className="glitch" src="./mithril.png" height="50" width="50" alt=""/>
+            <img className="glitch" src="./mithril.png" height="45" width="45" alt=""/>
             <img className="glitch" src="./hydra.png" height="50" width="50" alt=""/>
-            <img className="glitch" src="./singularity.png" height="50" width="50" alt=""/>
+            <img className="glitch" src="./singularity.png" height="40" width="40" alt=""/>
           </div>       
         </main>
       </div>
