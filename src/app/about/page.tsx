@@ -81,9 +81,15 @@ export default function About() {
             highlight projects:
           </h1>
           <div className="grid grid-cols-3 gap-6 justify-items-center sm:max-w-1/2 sm:justify-items-start">
-            <img className="glitch" src="./mithril.png" height="45" width="45" alt=""/>
-            <img className="glitch" src="./hydra.png" height="50" width="50" alt=""/>
-            <img className="glitch" src="./singularity.png" height="40" width="40" alt=""/>
+            <a target="_blank" rel="noopener noreferrer" href="https://mithril.network/doc/">
+              <img className="glitch" src="./mithril.png" height="45" width="45" alt=""/>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://hydra.family/head-protocol/">
+              <img className="glitch" src="./hydra.png" height="50" width="50" alt=""/>
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://bridge.singularitynet.io/">
+              <img className="glitch" src="./singularity.png" height="40" width="40" alt=""/>
+            </a>
           </div>       
         </main>
       </div>
