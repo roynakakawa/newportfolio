@@ -1,16 +1,10 @@
 import type { Metadata } from "next";
-import { Geist_Mono } from "next/font/google";
 import { Navbar } from "./components/navbar";
 import { Footer } from "./components/footer";
 import { metaData } from "./data";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 import "./styles.scss";
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: {
@@ -34,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistMono.variable} antialiased pb-container`}>
+      <body className="antialiased pb-container">
         <Navbar />
         {children}
         <Footer />

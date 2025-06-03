@@ -2,6 +2,9 @@ export default function About() {
     return (
       <div className="justify-items-center pb-content h-min-screen sm:h-[calc(100vh-2.5rem)]">
         <main className="grid sm:max-w-1/2 text-center sm:text-justify pt-42 flex-grow">
+          <h1 className="text-sm font-bold mb-4 text-center sm:text-left vhs">
+            a little bit about me:
+          </h1>
           <a className="text-sm vhsm">I'm a mexican electric engineer living in Madrid, Spain.</a>
           <a className="text-sm vhsm">
             I usually spend my time reading and having fun automating boring things. I've been involved in the Crypto ecosystem for about 6 years.
