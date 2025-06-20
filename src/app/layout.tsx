@@ -28,7 +28,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased pb-container">
+      <body className="pb-container">
         <Navbar />
         {children}
         <Footer />

@@ -31,7 +31,7 @@
   }
 
 .glitch {
-    animation: flicker 1s infinite alternate-reverse, skew 1s infinite;
+    animation: flicker 1s infinite alternate-reverse;
   }
   
 @keyframes flicker {
@@ -40,14 +40,5 @@
     }
     20%, 24%, 55% {
       opacity: 0.2;
-    }
-  }
-
-@keyframes skew {
-    $steps: 50;
-    @for $i from 0 to $steps {
-      #{math.percentage($i*calc(1/$steps))} {
-        transform: skew((math.random(2) - 1) + deg);
-      }
     }
   }

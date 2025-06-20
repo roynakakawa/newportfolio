@@ -9,7 +9,7 @@ export default function Home() {
           <p className="text-sm vhsm">and I have over 6 years in the Blockchain ecosystem</p>
         </div>
         <div className="justify-items-center">
-          <img className="glitch saturate-55" src="./royito.png" height="140" width="140" alt="Roy"/>
+          <img className="glitch saturate-70" src="./royito.png" height="140" width="140" alt="Roy"/>
         </div>
       </main>
     </div>
