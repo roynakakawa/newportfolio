@@ -7,7 +7,7 @@ export default function About() {
           </h1>
           <a className="text-sm vhsm">I'm a mexican electric engineer living in Madrid, Spain.</a>
           <a className="text-sm vhsm">
-            I usually spend my time reading and having fun automating boring things. I've been involved in the Crypto ecosystem for about 6 years.
+            I usually spend my time reading and having fun automating boring things. I've been involved in the Crypto ecosystem for about 7 years.
             I really believe that Blockchain can change our current understanding of how money works and empower individuals over centralized authorities.          
           </a>
           <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-4 text-center sm:text-left vhs">

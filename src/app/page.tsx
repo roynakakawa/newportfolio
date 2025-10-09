@@ -6,7 +6,7 @@ export default function Home() {
           <h1 className="mb-6 text-lg font-bold vhs">Hello there! happy day</h1>
           <p className="mb-6 text-md vhsm">I'm Roy Nakakawa</p>
           <p className="text-sm vhsm">I've been delivering projects for about 15 years</p>
-          <p className="text-sm vhsm">and I have over 6 years in the Blockchain ecosystem</p>
+          <p className="text-sm vhsm">and I have over 7 years in the Blockchain ecosystem</p>
         </div>
         <div className="justify-items-center">
           <img className="glitch saturate-70" src="./royito.png" height="140" width="140" alt="Roy"/>
