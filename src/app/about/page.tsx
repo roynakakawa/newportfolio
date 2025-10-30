@@ -13,13 +13,14 @@ export default function About() {
           <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-4 text-center sm:text-left vhs">
             teams where I have collaborated:
           </h1>
-          <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 justify-items-center sm:justify-items-start">
+          <div className="grid grid-cols-3 sm:grid-cols-7 gap-6 justify-items-center sm:justify-items-start">
             <img className="glitch" src="./bitso.png" height="50" width="50" alt=""/>
             <img className="glitch" src="./cardano.png" height="50" width="50" alt=""/>
             <img className="glitch" src="./iohk.png" height="50" width="50" alt=""/>
             <img className="glitch" src="./mina.png" height="50" width="50" alt=""/>
             <img className="glitch" src="./mlabs.png" height="50" width="50" alt=""/>
             <img className="glitch" src="./wanchain.png" height="40" width="40" alt=""/>
+            <img className="glitch" src="./baanx.png" height="40" width="40" alt=""/>
           </div>
           <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-4 vhs">
             my skills:
