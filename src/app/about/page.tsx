@@ -36,7 +36,7 @@ export default function About() {
             <div className="grid grid-rows-2 text-xs">
               <a className="vhsm">agile</a>
               <div className="flex h-3 overflow-hidden rounded text-xs border-1 glitch">
-                <div className="bg-(--foreground2) w-8/10 text-(--background) glitch"></div>
+                <div className="bg-(--foreground2) w-9/10 text-(--background) glitch"></div>
               </div>
             </div>
             <div className="grid grid-rows-2 text-xs">
@@ -46,7 +46,7 @@ export default function About() {
               </div>
             </div>
             <div className="grid grid-rows-2 text-xs">
-              <a className="vhsm">blockchain</a>
+              <a className="vhsm">bridges</a>
               <div className="flex h-3 overflow-hidden rounded text-xs border-1 glitch">
                 <div className="bg-(--foreground2) w-8/10 text-(--background) glitch"></div>
               </div>
@@ -60,7 +60,7 @@ export default function About() {
             <div className="grid grid-rows-2 text-xs">
               <a className="vhsm">deFi</a>
               <div className="flex h-3 overflow-hidden rounded text-xs border-1 glitch">
-                <div className="bg-(--foreground2) w-7/10 text-(--background) glitch"></div>
+                <div className="bg-(--foreground2) w-8/10 text-(--background) glitch"></div>
               </div>
             </div>
             <div className="grid grid-rows-2 text-xs">
@@ -70,7 +70,7 @@ export default function About() {
               </div>
             </div>
             <div className="grid grid-rows-2 text-xs">
-              <a className="vhsm">cex</a>
+              <a className="vhsm">evm</a>
               <div className="flex h-3 overflow-hidden rounded text-xs border-1 glitch">
                 <div className="bg-(--foreground2) w-7/10 text-(--background) glitch"></div>
               </div>
@@ -79,6 +79,18 @@ export default function About() {
               <a className="vhsm">zK</a>
               <div className="flex h-3 overflow-hidden rounded text-xs border-1 glitch">
                 <div className="bg-(--foreground2) w-7/10 text-(--background) glitch"></div>
+              </div>
+            </div>
+            <div className="grid grid-rows-2 text-xs">
+              <a className="vhsm">JS</a>
+              <div className="flex h-3 overflow-hidden rounded text-xs border-1 glitch">
+                <div className="bg-(--foreground2) w-7/10 text-(--background) glitch"></div>
+              </div>
+            </div>
+            <div className="grid grid-rows-2 text-xs">
+              <a className="vhsm">ai</a>
+              <div className="flex h-3 overflow-hidden rounded text-xs border-1 glitch">
+                <div className="bg-(--foreground2) w-8/10 text-(--background) glitch"></div>
               </div>
             </div>
           </div>
