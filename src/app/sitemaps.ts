@@ -16,6 +16,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.8,
     },
     {
+      url: `${metaData.baseUrl}/avalability`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.6,
+    },
+    {
       url: `${metaData.baseUrl}/contact`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
