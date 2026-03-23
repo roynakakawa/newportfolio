@@ -15,11 +15,11 @@ export default function About() {
             <img className="glitch" src="./bitso.png" height="50" width="50" alt="Bitso"/>
             <img className="glitch" src="./cardano.png" height="50" width="50" alt="Cardano"/>
             <img className="glitch" src="./dxc.png" height="50" width="50" alt="DXC Technology"/>
-            <img className="glitch" src="./iohk.png" height="50" width="50" alt="Input Output Global"/>
+            <img className="glitch" src="./iog.png" height="50" width="50" alt="Input Output Global"/>
             <img className="glitch" src="./mina.png" height="50" width="50" alt="Mina"/>
             <img className="glitch" src="./mlabs.png" height="50" width="50" alt="Mlabs"/>
-            <img className="glitch" src="./wanchain.png" height="40" width="40" alt="Wanchain"/>
-            <img className="glitch" src="./baanx.png" height="40" width="40" alt="Baanx"/>
+            <img className="glitch" src="./wanchain.png" height="50" width="50" alt="Wanchain"/>
+            <img className="glitch" src="./baanx.png" height="50" width="50" alt="Baanx"/>
           </div>
           <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-4 vhs">
             my skills :
