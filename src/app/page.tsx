@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { myInfo } from "./data";
+import royito from "@/assets/royito.png";
 
 export default function Home() {
   return (
@@ -11,7 +13,7 @@ export default function Home() {
           <a href='/contact' className="text-sm hover-glitch">Want to chat?</a>
         </div>
         <div className="justify-items-center">
-          <img src="./royito.png" height="140" width="140" alt="Roy"/>
+          <Image src={royito} height={140} width={140} alt="Roy"/>
         </div>
       </main>
     </div>

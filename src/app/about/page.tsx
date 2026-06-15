@@ -1,4 +1,22 @@
+import Image, { type StaticImageData } from "next/image";
 import { skills, myInfo, myProjects } from "../data";
+import bitso from "@/assets/bitso.png";
+import cardano from "@/assets/cardano.png";
+import dxc from "@/assets/dxc.png";
+import iog from "@/assets/iog.png";
+import mina from "@/assets/mina.png";
+import mlabs from "@/assets/mlabs.png";
+import wanchain from "@/assets/wanchain.png";
+import baanx from "@/assets/baanx.png";
+import mithril from "@/assets/mithril.png";
+import hydra from "@/assets/hydra.png";
+import singularity from "@/assets/singularity.png";
+
+const projectImages: Record<string, StaticImageData> = {
+  mithril,
+  hydra,
+  singularity,
+};
 
 export default function About() {
     return (
@@ -12,14 +30,14 @@ export default function About() {
             teams where I have collaborated :
           </h1>
           <div className="grid grid-cols-3 sm:grid-cols-5 gap-6 justify-items-center sm:justify-items-start">
-            <img src="./bitso.png" height="50" width="50" alt="Bitso"/>
-            <img src="./cardano.png" height="50" width="50" alt="Cardano"/>
-            <img src="./dxc.png" height="50" width="50" alt="DXC Technology"/>
-            <img src="./iog.png" height="50" width="50" alt="Input Output Global"/>
-            <img src="./mina.png" height="50" width="50" alt="Mina"/>
-            <img src="./mlabs.png" height="50" width="50" alt="Mlabs"/>
-            <img src="./wanchain.png" height="50" width="50" alt="Wanchain"/>
-            <img src="./baanx.png" height="50" width="50" alt="Baanx"/>
+            <Image src={bitso} height={50} width={50} alt="Bitso"/>
+            <Image src={cardano} height={50} width={50} alt="Cardano"/>
+            <Image src={dxc} height={50} width={50} alt="DXC Technology"/>
+            <Image src={iog} height={50} width={50} alt="Input Output Global"/>
+            <Image src={mina} height={50} width={50} alt="Mina"/>
+            <Image src={mlabs} height={50} width={50} alt="Mlabs"/>
+            <Image src={wanchain} height={50} width={50} alt="Wanchain"/>
+            <Image src={baanx} height={50} width={50} alt="Baanx"/>
           </div>
           <h1 className="text-sm font-bold mt-18 sm:mt-16 mb-4 glitch">
             my skills :
@@ -43,7 +61,7 @@ export default function About() {
             {myProjects.map((projects, i) => (
               <div key={i}>
                 <a target="_blank" rel="noopener noreferrer" href={projects.link}>
-                  <img src={`./${projects.name}.png`} height="40" width="40" alt=""/>
+                  <Image src={projectImages[projects.name]} height={40} width={40} alt=""/>
                 </a>
               </div>
             ))}
