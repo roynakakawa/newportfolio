@@ -15,7 +15,7 @@ export const socialLinks = {
 export const myInfo = {
     name: "Roy Nakakawa",
     intro: "I'm a Delivery and GTM leader with 15+ years of experience, and I have over 7 years in the web3 ecosystem",
-    about: "I’m a Mexican electrical engineer based in Madrid, Spain. I enjoy reading, building stuffs, and finding ways to automate boring things just for the fun of it. I’ve been involved in the crypto ecosystem for about seven years, and I believe blockchain has the potential to reshape how we think about money and give individuals more control in an increasingly centralized world.",
+    about: "I'm a Mexican electrical engineer based in Madrid, Spain. I enjoy reading, building stuffs, and finding ways to automate boring things just for the fun of it. I’ve been involved in the crypto ecosystem for about seven years, and I believe blockchain has the potential to reshape how we think about money and give individuals more control in an increasingly centralized world.",
 }
 
 export const myProjects = [

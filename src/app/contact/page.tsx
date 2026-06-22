@@ -14,12 +14,12 @@ function SocialLinks() {
 
 export default function Contact() {
   return (
-    <div className="justify-items-center h-[calc(100vh-6rem)] sm:h-[calc(100vh-2.5rem)]">
+    <div className="justify-items-center h-[calc(100dvh-6rem)] sm:h-[calc(100dvh-2.5rem)]">
       <main className="grid w-full sm:max-w-1/2 text-center sm:text-justify pt-42 flex-grow">
         <h1 className="text-sm font-bold mb-4 text-center sm:text-left glitch">
             reach out to my network :
           </h1>
-        <div className="sm:justify-items-start justify-items-center">
+        <div className="grid sm:justify-items-start justify-items-center">
         <SocialLinks/>
         </div>
       </main>
